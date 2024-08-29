@@ -1,0 +1,9 @@
+print(1 > 2)  # False
+print(1 < 2)  # True
+print(1 >= 2)  # False
+print(1 <= 2)  # True
+print(1 == 2)  # False
+print(1 != 2)  # True
+print(1 == 1.0)  # True
+print(1 == "1")  # False
+print(1 == int("1"))  # True
