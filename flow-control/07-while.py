@@ -5,6 +5,6 @@
 
 comando = ""
 
-while comando != "salir":
+while comando.lower() != "salir":
     comando = input("Introduce un comando: ")
     print("Has introducido:", comando)
