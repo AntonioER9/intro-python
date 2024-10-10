@@ -1,4 +1,5 @@
-from user_taxes import pay, save
+# from users.actions import pay, save
+from users import actions
 
-pay()
-save()
+actions.pay()
+actions.save()
